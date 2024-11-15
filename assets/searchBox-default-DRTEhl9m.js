@@ -1,0 +1,1 @@
+const e='{"documentCount":1,"nextId":1,"documentIds":{"0":"/article/93s84jyv/#亦谙"},"fieldIds":{"title":0,"titles":1,"text":2},"fieldLength":{"0":[1,1,1]},"averageFieldLength":[1,1,1],"storedFields":{"0":{"title":"亦谙","titles":[]}},"dirtCount":0,"index":[["亦谙",{"0":{"0":1}}]],"serializationVersion":2}';export{e as default};
