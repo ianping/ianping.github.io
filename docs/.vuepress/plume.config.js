@@ -10,18 +10,18 @@ export default defineThemeConfig({
 
   // 博客配置
   blog: {
-    include: ["blog/**/*.md"],
+    include: ["**/*.md"],
     exclude: [".vuepress/", "**/README.md"],
 
     // 博客文章列表页
     postList: true,
     link: "/blog/",
-    pagination: 8, // 分页
+    pagination: 10, // 分页
 
     // 分类页
     categories: true,
-    categoriesLink: "/blog/categories/",
-    categoriesExpand: "deep",
+    // categoriesLink: "/blog/categories/",
+    // categoriesExpand: "deep",
 
     // 标签页
     tags: true,
@@ -45,23 +45,25 @@ export default defineThemeConfig({
   encrypt: {
     global: false,
     admin: ['666'],
-    rules: {}
+    rules: {
+      // '^/notes/.*?': ['666']
+    }
   },
   encryptGlobalText: '本站点已加密',
   encryptButtonText: 'Go',
 
   // 公告板
-//   bulletin: {
-//     layout: 'top-right',
-//     border: true,
-//     lifetime: 'session',
-//     id: '1',
-//     title: 'title',
-//     enablePage: (page) => true,
-//     contentType: 'text',
-//     content: '公告内容',
-//     contentFile: ''
-//   },
+  // bulletin: {
+  //   layout: 'top-right',
+  //   border: true,
+  //   lifetime: 'session',
+  //   id: '1',
+  //   title: 'title',
+  //   enablePage: (page) => true,
+  //   contentType: 'text',
+  //   content: '公告内容',
+  //   contentFile: ''
+  // },
 
   // 文章链接前缀
   article: '/article/',

@@ -9,12 +9,12 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "亦谙博客",
+  title: "亦谙",
   description: "亦谙博客",
 
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
-  pagePatterns: ["**/*.md", "!**/README.md", "!.vuepress", "!node_modules"],
+  pagePatterns: ["**/*.md", "!.vuepress", "!node_modules"],
 
   permalinkPattern: "",
 
