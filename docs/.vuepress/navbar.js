@@ -9,11 +9,11 @@ export default defineNavbarConfig([
     text: "笔记",
     prefix: "/notes/",
     items: [
+      { text: "Java", link: "java/gcent4qr/" },
+      { text: "Python", link: "python/3xdslzb9/" },
+      { text: "Web", link: "/web/rypds3ps/" },
       { text: "数学", link: "math/" },
       { text: "人工智能", link: "ai/" },
-      { text: "Python", link: "python/3x58m14j/" },
-      { text: "Java", link: "java/eozur0be/" },
-      { text: "Web", link: "web/d9n2f1bx/" },
     ],
   },
 ]);

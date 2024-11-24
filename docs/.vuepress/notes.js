@@ -1,19 +1,10 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
-
-// 数学
-const math = defineNoteConfig({
-  dir: 'math',
-  link: 'math',
-  text: '数学',
-  sidebar: 'auto'
-});
-
-// 人工智能
-const ai = defineNoteConfig({
-  dir: 'ai',
-  link: 'ai',
-  text: '人工智能',
+// Java
+const java = defineNoteConfig({
+  dir: 'java',
+  link: 'java',
+  text: 'Java',
   sidebar: 'auto'
 });
 
@@ -25,14 +16,6 @@ const python = defineNoteConfig({
   sidebar: 'auto'
 });
 
-// Java
-const java = defineNoteConfig({
-  dir: 'java',
-  link: 'java',
-  text: 'Java',
-  sidebar: 'auto'
-});
-
 // Web
 const web = defineNoteConfig({
   dir: 'web',
@@ -40,6 +23,7 @@ const web = defineNoteConfig({
   text: 'Web',
   sidebar: 'auto'
 });
+
 
 // 数据库
 const database = defineNoteConfig({
@@ -65,11 +49,28 @@ const server = defineNoteConfig({
   sidebar: 'auto'
 });
 
+// 人工智能
+const ai = defineNoteConfig({
+  dir: 'ai',
+  link: 'ai',
+  text: '人工智能',
+  sidebar: 'auto'
+});
+
 // 计算机科学
 const cs = defineNoteConfig({
   dir: 'cs',
   link: 'cs',
   text: '计算机科学',
+  sidebar: 'auto'
+});
+
+
+// 数学
+const math = defineNoteConfig({
+  dir: 'math',
+  link: 'math',
+  text: '数学',
   sidebar: 'auto'
 });
 
