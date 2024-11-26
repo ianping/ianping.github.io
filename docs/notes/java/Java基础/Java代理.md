@@ -2,6 +2,7 @@
 title: Java代理
 createTime: 2024/11/24 15:56:15
 permalink: /notes/java/xkhnx2a4/
+tags: ['Java']
 ---
 ## 静态代理设计模式
 
