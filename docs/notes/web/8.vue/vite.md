@@ -3,11 +3,11 @@ title: vite
 createTime: 2024/11/24 15:56:16
 permalink: /notes/web/iha5c27g/
 ---
-Vite官方文档：https://cn.vitejs.dev/guide/
+vite官方文档：https://cn.vitejs.dev/guide/
 
 ## 基础使用
 
-### 创建Vite项目
+### 创建vite项目
 
 `yarn create vite`
 

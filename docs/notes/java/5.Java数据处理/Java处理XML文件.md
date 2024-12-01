@@ -33,7 +33,7 @@ permalink: /notes/java/cbyug1cd/
 
 DOM(Document Object Model), 文档对象模型, 是一种树型解析器, 将读入的XML文档解析为数结构.
 
-```hava
+```java
 try {
     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     DocumentBuilder builder = factory.newDocumentBuilder();

@@ -1,7 +1,7 @@
 ---
 title: minecraft开发环境搭建
 createTime: 2024/11/24 15:56:15
-permalink: /article/nhy5co2j/
+permalink: /notes/minecraft/vptuj4gv/
 ---
 版本信息：
 

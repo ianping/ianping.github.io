@@ -1,8 +1,9 @@
 ---
 title: VuePress搭建静态站点
 createTime: 2024/11/24 15:56:16
-permalink: /article/krbtnlsf/
+permalink: /notes/web/rdbfieru/
 ---
+
 官方文档：https://v2.vuepress.vuejs.org/zh/guide/
 
 主题库：https://www.npmjs.com/search?q=keywords:vuepress-theme

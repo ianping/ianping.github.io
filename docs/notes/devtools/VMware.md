@@ -1,8 +1,9 @@
 ---
 title: VMware
 createTime: 2024/11/24 15:56:15
-permalink: /article/hjch40kw/
+permalink: /notes/devtools/s20jgkzb/
 ---
+
 ## VMWare Workstation虚拟机配置固定IP
 
 1.网络配置模式

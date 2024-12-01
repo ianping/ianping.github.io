@@ -7,9 +7,9 @@ config:
       light: 0.3
       dark: 0.3
     hero:
-      name: 亦谙
-      tagline: 非正经程序猿
-      text: 生命是一种律动，须有光有影，有晴有雨，其中滋味，妙不可言。
+      name: 亦谙博客
+      tagline: 纸上得来终觉浅，绝知此事要躬行！
+      text: Just do it !!!。
       actions:
         - text: 我的博客
           link: /blog/

@@ -1,8 +1,9 @@
 ---
 title: axure
 createTime: 2024/11/24 15:56:16
-permalink: /article/99rtgq9i/
+permalink: /notes/software/qwr3i2df/
 ---
+
 Axure RP 9许可证
 
 ```

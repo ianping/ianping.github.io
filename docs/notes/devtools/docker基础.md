@@ -1,7 +1,7 @@
 ---
-title: docker
-createTime: 2024/11/24 15:56:14
-permalink: /article/m8zzuxj2/
+title: docker基础
+createTime: 2023/11/24 15:56:14
+permalink: /notes/devtools/2sr7xao3/
 ---
 ## Docker镜像
 

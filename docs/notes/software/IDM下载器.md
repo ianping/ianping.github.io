@@ -1,8 +1,9 @@
 ---
 title: IDM下载器
 createTime: 2024/11/24 15:56:16
-permalink: /article/f33n9zxm/
+permalink: /notes/software/d82t3l7j/
 ---
+
 下载IDM
 
 https://www.internetdownloadmanager.com/

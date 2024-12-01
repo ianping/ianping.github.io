@@ -1,8 +1,9 @@
 ---
 title: git
 createTime: 2024/11/24 15:56:14
-permalink: /article/ydopdiwe/
+permalink: /notes/devtools/ym812rku/
 ---
+
 参考：
 
 - 官网：https://git-scm.com/

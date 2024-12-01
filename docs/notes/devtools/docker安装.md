@@ -1,8 +1,9 @@
 ---
 title: docker安装
 createTime: 2024/11/24 15:56:14
-permalink: /article/ijkpv16s/
+permalink: /notes/devtools/hhxnlumo/
 ---
+
 ## Windows安装docker
 
 参考：

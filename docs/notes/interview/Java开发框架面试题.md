@@ -1,8 +1,9 @@
 ---
 title: Java开发框架面试题
 createTime: 2024/11/24 15:56:15
-permalink: /article/1u98nkxz/
+permalink: /notes/interview/xiczg50w/
 ---
+
 ## JavaWeb
 
 ### JavaWeb 3大核心组件

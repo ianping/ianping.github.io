@@ -1,8 +1,9 @@
 ---
 title: VPN搭建
 createTime: 2024/11/24 15:56:15
-permalink: /article/3u3ngpaj/
+permalink: /notes/funs/mpkq5rxa/
 ---
+
 前提：
 
 + 购买海外云服务器

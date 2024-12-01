@@ -1,8 +1,9 @@
 ---
 title: Java基础面试题
 createTime: 2024/11/24 15:56:15
-permalink: /article/z61tfdfl/
+permalink: /notes/interview/zytg44kc/
 ---
+
 ## 概念
 
 ### JavaSE、JavaEE、JavaME

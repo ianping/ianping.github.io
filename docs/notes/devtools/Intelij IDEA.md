@@ -1,8 +1,9 @@
 ---
 title: Intelij IDEA
 createTime: 2024/11/24 15:56:15
-permalink: /article/f4614ev0/
+permalink: /notes/devtools/t3kektq6/
 ---
+
 ## 下载
 
 https://www.jetbrains.com/idea/download/other.html

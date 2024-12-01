@@ -1,8 +1,9 @@
 ---
 title: MinIO Typora PicGo搭建个人图床服务
 createTime: 2024/11/24 15:56:16
-permalink: /article/4xysnlwp/
+permalink: /notes/funs/d2whl6h4/
 ---
+
 ## 部署MinIO
 
 使用Docker容器部署

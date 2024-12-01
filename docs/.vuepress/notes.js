@@ -24,6 +24,14 @@ const web = defineNoteConfig({
   sidebar: 'auto'
 });
 
+// Web建站
+const website = defineNoteConfig({
+  dir: 'website',
+  link: 'website',
+  text: '建站',
+  sidebar: 'auto'
+});
+
 
 // 数据库
 const database = defineNoteConfig({
@@ -41,6 +49,14 @@ const middleware = defineNoteConfig({
   sidebar: 'auto'
 });
 
+// 我的世界
+const minecraft = defineNoteConfig({
+  dir: 'minecraft',
+  link: 'minecraft',
+  text: 'Minecraft',
+  sidebar: 'auto'
+});
+
 // 服务器
 const server = defineNoteConfig({
   dir: 'server',
@@ -49,19 +65,19 @@ const server = defineNoteConfig({
   sidebar: 'auto'
 });
 
-// 人工智能
+// AI
 const ai = defineNoteConfig({
   dir: 'ai',
   link: 'ai',
-  text: '人工智能',
+  text: 'AI',
   sidebar: 'auto'
 });
 
-// 计算机科学
+// 计算机基础
 const cs = defineNoteConfig({
   dir: 'cs',
   link: 'cs',
-  text: '计算机科学',
+  text: '计算机基础',
   sidebar: 'auto'
 });
 
@@ -74,10 +90,51 @@ const math = defineNoteConfig({
   sidebar: 'auto'
 });
 
+// 第三方服务
+const thirdPartyServices = defineNoteConfig({
+  dir: 'thirdPartyServices',
+  link: 'thirdPartyServices',
+  text: '第三方服务',
+  sidebar: 'auto'
+});
+
+// 开发工具
+const devtools = defineNoteConfig({
+  dir: 'devtools',
+  link: 'devtools',
+  text: '开发工具',
+  sidebar: 'auto'
+});
+
+// 常用软件
+const software = defineNoteConfig({
+  dir: 'software',
+  link: 'software',
+  text: '常用软件',
+  sidebar: 'auto'
+});
+
+
+// Fun things
+const funs = defineNoteConfig({
+  dir: 'funs',
+  link: 'funs',
+  text: 'Fun things',
+  sidebar: 'auto'
+});
+
+// 面试
+const interview = defineNoteConfig({
+  dir: 'interview',
+  link: 'interview',
+  text: '其它',
+  sidebar: 'auto'
+});
+
 // 其它
-const other = defineNoteConfig({
-  dir: 'other',
-  link: 'other',
+const others = defineNoteConfig({
+  dir: 'others',
+  link: 'others',
   text: '其它',
   sidebar: 'auto'
 });
@@ -92,10 +149,17 @@ export default defineNotesConfig({
     python,
     java,
     web,
+    website,
     database,
     middleware,
+    minecraft,
     server,
     cs,
-    other,
+    devtools,
+    software,
+    thirdPartyServices,
+    funs,
+    interview,
+    others,
   ]
 });

@@ -1,8 +1,9 @@
 ---
 title: postman
 createTime: 2024/11/24 15:56:15
-permalink: /article/ygybjoz3/
+permalink: /notes/devtools/ww7vanzj/
 ---
+
 ## Postman历史版本下载
 
 Postman V10.17是最后一个支持离线模式（Scratch Pad）的版本。

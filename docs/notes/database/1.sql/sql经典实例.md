@@ -100,3 +100,32 @@ SET salary = (CASE WHEN salary > 40000 THEN salary * 0.9 WHEN salary < 20000 THE
 结果：
 
 ![](./../_/20240312102533.png)
+
+## 使用WITH语句进行递归查询
+
+目录表directories中，使用pid表示上级目录ID，pid为NULL表示根目录。
+
+```sql
+WITH RECURSIVE dir_tree(id, pid, name, level, path) AS(
+  SELECT id,
+         pid,
+         name,
+         1 AS level,
+         CAST(name AS TEXT) AS path
+  FROM  directories
+  WHERE pid IS NULL
+
+  UNION ALL
+  
+  SELECT t1.id,
+         t1.pid,
+         t1.name,
+         t2.level + 1 AS level,
+         CAST(concat(t2.path, '/', t1.name) AS TEXT) path
+  FROM  directories  t1 INNER JOIN dir_tree t2 ON t1.pid = t2.id       
+)
+SELECT * FROM dir_tree
+ORDER BY path
+```
+
+在Oracle中, 不需要 `RECURSIVE` 关键字。

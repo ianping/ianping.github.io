@@ -1,8 +1,9 @@
 ---
 title: maven
 createTime: 2024/11/24 15:56:15
-permalink: /article/vcm9abjl/
+permalink: /notes/devtools/3t4wiczc/
 ---
+
 参考：
 
 - maven官网：https://maven.apache.org/
