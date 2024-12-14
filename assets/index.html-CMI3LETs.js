@@ -1,0 +1,20 @@
+import{_ as s,c as e,b as n,o as l}from"./app-DsGHT65_.js";const i={};function p(c,a){return l(),e("div",null,a[0]||(a[0]=[n(`<h2 id="使用docker安装oracle-exp-12c" tabindex="-1"><a class="header-anchor" href="#使用docker安装oracle-exp-12c"><span>使用Docker安装Oracle Exp 12c</span></a></h2><p>1.拉取镜像</p><blockquote><p>也许需要挂VPN访问外网</p></blockquote><p><code>docker pull truevoly/oracle-12c</code></p><p>2.创建容器</p><p><code>docker create --name oracle12c -p 1521:1521 truevoly/oracle-12c</code></p><p>3.启动容器</p><p><code>docker start oracle12c</code></p><p>4.验证</p><p>进入容器</p><p><code>docker exec -it oracle12c bash</code></p><p>默认是以root用户登录的，设置一下root密码</p><p><code>passwd</code></p><p>登录oracle，用户名/密码为：sys/oracle</p><p><code>sqlplus /nolog</code></p><div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes github-light material-theme-darker vp-code"><code><span class="line"><span>root@f08ef4931416:/# sqlplus</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>SQL*Plus: Release 12.1.0.2.0 Production on Sat May 18 08:02:53 2024</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Copyright (c) 1982, 2014, Oracle.  All rights reserved.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Enter user-name: sys as sysdba</span></span>
+<span class="line"><span>Enter password:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Connected to:</span></span>
+<span class="line"><span>Oracle Database 12c Standard Edition Release 12.1.0.2.0 - 64bit Production</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>SQL&gt; select instance_name, version from v$instance;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>INSTANCE_NAME    VERSION</span></span>
+<span class="line"><span>---------------- -----------------</span></span>
+<span class="line"><span>xe               12.1.0.2.0</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>SQL&gt; show parameter sevice_name;</span></span>
+<span class="line"><span>SQL&gt;</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>5.使用Navicat连接Oracle数据库</p><p>注意：使用 <em>sys/oracle</em> 连接Oracle时，需要在【高级】选项卡中，设置角色为sysdba。</p><h2 id="使用docker安装oracle-11g" tabindex="-1"><a class="header-anchor" href="#使用docker安装oracle-11g"><span>使用Docker安装Oracle 11g</span></a></h2><p>1.拉取镜像</p><p><code>docker pull registry.cn-hangzhou.aliyuncs.com/helowin/oracle_11g</code></p><h2 id="本地安装oracle-express-edition" tabindex="-1"><a class="header-anchor" href="#本地安装oracle-express-edition"><span>本地安装Oracle Express Edition</span></a></h2><p>下载：https://www.oracle.com/database/technologies/xe-downloads.html</p>`,23)]))}const d=s(i,[["render",p],["__file","index.html.vue"]]),o=JSON.parse('{"path":"/notes/database/j80kyty0/","title":"Oracle安装","lang":"zh-CN","frontmatter":{"title":"Oracle安装","createTime":"2024/11/24 15:56:14","permalink":"/notes/database/j80kyty0/"},"headers":[],"readingTime":{"minutes":0.75,"words":224},"git":{"updatedTime":1733057441000,"contributors":[{"name":"ianping","email":"13520322212@163.com","commits":2,"avatar":"https://avatars.githubusercontent.com/ianping?v=4","url":"https://github.com/ianping"}]},"filePathRelative":"notes/database/4.oracle/Oracle安装.md","bulletin":false}');export{d as comp,o as data};
